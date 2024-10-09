@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .drop{position: relative;
+            display: inline-block ;
+        }
+
+        .drop:hover .drop:focus{
+            background-color: blueviolet;
+        }
+
+        .down{position: absolute;
+            display: none;
+            background-color: blue;
+            width: 1000px;
+            height: 250px;
+        }
+
+        .drop:hover .down{background-color: brown;
+           .show{ display: block;}
+        }
+    </style>
+</head>
+<body>
+    <div class="drop">
+        <button onclick="myFunction()"  > Enrichment</button>
+        <div id="kay" class="down">
+            <li>baby</li>
+            <li>baby</li>
+            <li>baby</li>
+            <li>baby</li>
+            <li>baby</li>
+            <li>baby</li>
+            
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("kay").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

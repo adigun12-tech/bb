@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "PT Sans Caption", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.ee{
+    margin-top: 29px;
+    margin-left: 38px;
+    color:  #6c757d;
+}
+.vve{
+    display: flex;
+    height: 87px;
+    border-bottom: 1px solid #f2f4f5;
+    font-size: 14px;
+}
+.vvv{
+    font-weight: 900;
+    font-family: "PT Serif", serif;
+    margin-left: 60px;
+
+}
+.eb{
+    font-size: 14px;
+    line-height: 10px;
+}
+.bb{
+    font-size: 21px;
+    line-height: 25.2px;
+    color: #212529;
+    font-family: "PT Serif", serif;
+    font-weight: 900;
+    letter-spacing: normal;
+}
+.jj{
+    transition: 0.3s ease;
+}
+.jj:hover{
+    transform: translate(-0%,-5%);
+    box-shadow: rgb(0,0,0) 0px 18px 32px -18px;
+
+}
+.yy{
+     /* font-size: 14px; */
+     
+}
+.ff{
+    position: relative;
+    top: -40px;
+}
+.bbc{
+    width: 122px;
+    border: 1px solid wheat;
+    height: 35px;
+    margin-top: -5px;
+}
+.pt{
+    color: #212529;
+    font-family: "PT Serif", serif;
+}
+
+.ot{
+    position: relative;
+    top: 72px;
+    padding: 95px 0px;
+    background-color: #f2f4f5;
+}
+.tt:hover{
+    box-shadow: rgba(130,138,145,0.5) 0px 0px 0px 4px;
+
+}
+.ii{
+    height: 200px;
+}
+
+.gg{
+    width: 100%;
+     background-color:  green;
+      display: flex; 
+      flex-wrap:wrap;
+      position: relative;
+      top: 75px;
+      /* height: 168px;/ */
+      overflow-y: hidden;
+}
+.gg img{
+    width: 12.5%;
+    transition: 0.5s ease-out;
+}
+
+.gg img:hover{
+    transform: scale(1.1);
+}
+
+.km{
+    color: #555d65;
+}
+.km:hover{
+    transition: 0.5s ease;
+    color: white;
+}
+@media (0px <= width <= 430px){
+    .gg img{
+        width: 25%;
+        height: 25%;
+    }
+}
+
+
+/* 
+@media (0px <= width <= 430px)  {
+    .vve{
+        display: none !important;
+    }
+  
+    
+.yy{
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 24px;
+    font-size: 18px;
+    width: 380px;
+}
+.eb{
+    margin-left: 24px;
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 10px;
+}
+.bb{
+    width: 380px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 28px;
+    color: #212529;
+    font-family: "PT Serif", serif;
+    font-weight: 900;
+    letter-spacing: normal;
+    margin-left: 24px;
+}
+} */
